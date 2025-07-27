@@ -18,6 +18,12 @@ html{
 #header{
   scroll-margin-top: 100px;
 }
+.cursor {
+  display: inline-block;
+  background-color: transparent;
+  color: white;
+  animation: blink 0.7s infinite;
+}
 img{
     height: 400px;
 }
@@ -513,4 +519,71 @@ button a{
     height: 35px;
   }
 }
+/* Animation for services */
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(-100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(100px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-left {
+  opacity: 0;
+  transform: translateX(-100px);
+  transition: all 0.5s ease-out;
+}
+.animate-right {
+  opacity: 0;
+  transform: translateX(100px);
+  transition: all 0.5s ease-out;
+}
+.animate-left.visible {
+  opacity: 1;
+  transform: translateX(0);
+  animation: slideInLeft 0.7s forwards;
+}
+.animate-right.visible {
+  opacity: 1;
+  transform: translateX(0);
+  animation: slideInRight 0.7s forwards;
+}
+/* Fade-in animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Initial hidden state */
+.fade-in {
+  opacity: 0;
+  transition: opacity 0.8s ease-in;
+}
+
+/* When visible */
+.fade-in.visible {
+  animation: fadeIn 1s ease-in forwards;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
 
