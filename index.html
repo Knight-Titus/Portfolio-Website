@@ -16,7 +16,7 @@
     <div id="header">
       <div class="container">
         <nav>
-  <img src="personal-portfolio-img/images/mainlogo__1_-removebg-preview.png" alt="logo" />
+  <img  src="personal-portfolio-img/images/mainlogo__1_-removebg-preview.png" alt="logo" />
   <button class="hamburger" onclick="toggleMenu()">☰</button>
   <div class="nav-cont" id="navMenu">
     <ul class="list">
@@ -31,15 +31,15 @@
 
       </div>
       <div class="header-text">
-        <p>Web Developer</p>
+        <p><span id="typed-text"></span><span class="cursor">|</span></p>
         <br />
-        <h1>Hi,I am <span>Piyush</span><br />From Patna, Bihar</h1>
+        <h1>Hi,I am <span>Piyush</span><br />From Munger, Bihar</h1>
       </div>
     </div>
     <div id="about" >
       <div class="row">
         <div class="col-1">
-          <img src="personal-portfolio-img/images/-gh08t4.jpg" alt="user" />
+          <img class="fade-in" src="personal-portfolio-img/images/-gh08t4.jpg" alt="user" />
         </div>
         <div class="col-2">
           <h1>About Me</h1>
@@ -88,18 +88,18 @@
     <div class="hobbies" id="services">
         <h1>My Services</h1>
         <div class="cont-hobby">
-            <div class="box box1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M392.8 65.2C375.8 60.3 358.1 70.2 353.2 87.2L225.2 535.2C220.3 552.2 230.2 569.9 247.2 574.8C264.2 579.7 281.9 569.8 286.8 552.8L414.8 104.8C419.7 87.8 409.8 70.1 392.8 65.2zM457.4 201.3C444.9 213.8 444.9 234.1 457.4 246.6L530.8 320L457.4 393.4C444.9 405.9 444.9 426.2 457.4 438.7C469.9 451.2 490.2 451.2 502.7 438.7L598.7 342.7C611.2 330.2 611.2 309.9 598.7 297.4L502.7 201.4C490.2 188.9 469.9 188.9 457.4 201.4zM182.7 201.3C170.2 188.8 149.9 188.8 137.4 201.3L41.4 297.3C28.9 309.8 28.9 330.1 41.4 342.6L137.4 438.6C149.9 451.1 170.2 451.1 182.7 438.6C195.2 426.1 195.2 405.8 182.7 393.3L109.3 320L182.6 246.6C195.1 234.1 195.1 213.8 182.6 201.3z"/></svg><br><h3>Web Development</h3><br>I create responsive, user-friendly websites using HTML, CSS, JavaScript, and React. My focus is on building visually appealing, functional interfaces optimized for speed, accessibility, and cross-device compatibility.<br><a href="#">Learn more...</a></div>
-            <div class="box box2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M208 64C172.7 64 144 92.7 144 128L144 512C144 547.3 172.7 576 208 576L432 576C467.3 576 496 547.3 496 512L496 128C496 92.7 467.3 64 432 64L208 64zM280 480L360 480C373.3 480 384 490.7 384 504C384 517.3 373.3 528 360 528L280 528C266.7 528 256 517.3 256 504C256 490.7 266.7 480 280 480z"/></svg><br><h3>UI/UX Design</h3><br>I design intuitive user interfaces with smooth user experiences. Using tools like Figma and modern design principles, I craft layouts that are clean, engaging, and aligned with user behavior and business goals. <br><a href="#">Learn more...</a></div>
-            <div class="box box3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 128C92.7 128 64 156.7 64 192L64 448C64 483.3 92.7 512 128 512L384 512C419.3 512 448 483.3 448 448L448 192C448 156.7 419.3 128 384 128L128 128zM496 400L569.5 458.8C573.7 462.2 578.9 464 584.3 464C597.4 464 608 453.4 608 440.3L608 199.7C608 186.6 597.4 176 584.3 176C578.9 176 573.7 177.8 569.5 181.2L496 240L496 400z"/></svg><br><h3>Video Editing</h3><br>I offer professional video editing services, including trimming, transitions, color correction, and effects. Ideal for YouTube creators, social media content, and promotional videos with impactful storytelling and polished visuals. <br><a href="#">Learn more...</a></div>
+            <div class="box box1 animate-left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M392.8 65.2C375.8 60.3 358.1 70.2 353.2 87.2L225.2 535.2C220.3 552.2 230.2 569.9 247.2 574.8C264.2 579.7 281.9 569.8 286.8 552.8L414.8 104.8C419.7 87.8 409.8 70.1 392.8 65.2zM457.4 201.3C444.9 213.8 444.9 234.1 457.4 246.6L530.8 320L457.4 393.4C444.9 405.9 444.9 426.2 457.4 438.7C469.9 451.2 490.2 451.2 502.7 438.7L598.7 342.7C611.2 330.2 611.2 309.9 598.7 297.4L502.7 201.4C490.2 188.9 469.9 188.9 457.4 201.4zM182.7 201.3C170.2 188.8 149.9 188.8 137.4 201.3L41.4 297.3C28.9 309.8 28.9 330.1 41.4 342.6L137.4 438.6C149.9 451.1 170.2 451.1 182.7 438.6C195.2 426.1 195.2 405.8 182.7 393.3L109.3 320L182.6 246.6C195.1 234.1 195.1 213.8 182.6 201.3z"/></svg><br><h3>Web Development</h3><br>I create responsive, user-friendly websites using HTML, CSS, JavaScript, and React. My focus is on building visually appealing, functional interfaces optimized for speed, accessibility, and cross-device compatibility.<br><a href="#">Learn more...</a></div>
+            <div class="box box2 animate-right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M208 64C172.7 64 144 92.7 144 128L144 512C144 547.3 172.7 576 208 576L432 576C467.3 576 496 547.3 496 512L496 128C496 92.7 467.3 64 432 64L208 64zM280 480L360 480C373.3 480 384 490.7 384 504C384 517.3 373.3 528 360 528L280 528C266.7 528 256 517.3 256 504C256 490.7 266.7 480 280 480z"/></svg><br><h3>UI/UX Design</h3><br>I design intuitive user interfaces with smooth user experiences. Using tools like Figma and modern design principles, I craft layouts that are clean, engaging, and aligned with user behavior and business goals. <br><a href="#">Learn more...</a></div>
+            <div class="box box3 animate-left"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M128 128C92.7 128 64 156.7 64 192L64 448C64 483.3 92.7 512 128 512L384 512C419.3 512 448 483.3 448 448L448 192C448 156.7 419.3 128 384 128L128 128zM496 400L569.5 458.8C573.7 462.2 578.9 464 584.3 464C597.4 464 608 453.4 608 440.3L608 199.7C608 186.6 597.4 176 584.3 176C578.9 176 573.7 177.8 569.5 181.2L496 240L496 400z"/></svg><br><h3>Video Editing</h3><br>I offer professional video editing services, including trimming, transitions, color correction, and effects. Ideal for YouTube creators, social media content, and promotional videos with impactful storytelling and polished visuals. <br><a href="#">Learn more...</a></div>
         </div>
     </div>
     <div id="portfolio">
       <div class="container">
         <h1>My Portfolio</h1>
         <div class="work-list">
-          <div class="work"><img src="personal-portfolio-img/images/work-1.png" alt="work1"><div class="layer"><h3>🎧 Spotify Clone</h3><p>I'm developing a Spotify-inspired music streaming web app featuring responsive design, interactive playlists, audio controls, and a sleek UI — built with HTML, CSS, JavaScript, and React for a smooth user experience.</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"/></svg></div></div>
-          <div class="work"><img src="personal-portfolio-img/images/work-2.png" alt="work1"><div class="layer"><h3>Swiggy like App </h3><p>This project replicates Swiggy’s core functionalities — from restaurant listings to cart management. The focus is on clean UI, real-time interaction, and responsive layout using modern front-end technologies like React and Tailwind CSS</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"/></svg></div></div>
-          <div class="work"><img src="personal-portfolio-img/images/work-3.png" alt="work1"><div class="layer"><h3>Social Media App</h3><p>I'm building a social media photo-sharing platform similar to Instagram. Features include user feeds, like/comment functionality, and responsive layout — all designed with React and styled-components for a dynamic and modern interface.</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"/></svg></div></div>
+          <div class="work fade-in"><img src="personal-portfolio-img/images/work-1.png" alt="work1"><div class="layer"><h3>🎧 Spotify Clone</h3><p>I'm developing a Spotify-inspired music streaming web app featuring responsive design, interactive playlists, audio controls, and a sleek UI — built with HTML, CSS, JavaScript, and React for a smooth user experience.</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"/></svg></div></div>
+          <div class="work fade-in"><img src="personal-portfolio-img/images/work-2.png" alt="work1"><div class="layer"><h3>Swiggy like App </h3><p>This project replicates Swiggy’s core functionalities — from restaurant listings to cart management. The focus is on clean UI, real-time interaction, and responsive layout using modern front-end technologies like React and Tailwind CSS</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"/></svg></div></div>
+          <div class="work fade-in"><img src="personal-portfolio-img/images/work-3.png" alt="work1"><div class="layer"><h3>Social Media App</h3><p>I'm building a social media photo-sharing platform similar to Instagram. Features include user feeds, like/comment functionality, and responsive layout — all designed with React and styled-components for a dynamic and modern interface.</p><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640"><!--!Font Awesome Free v7.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2025 Fonticons, Inc.--><path d="M384 64C366.3 64 352 78.3 352 96C352 113.7 366.3 128 384 128L466.7 128L265.3 329.4C252.8 341.9 252.8 362.2 265.3 374.7C277.8 387.2 298.1 387.2 310.6 374.7L512 173.3L512 256C512 273.7 526.3 288 544 288C561.7 288 576 273.7 576 256L576 96C576 78.3 561.7 64 544 64L384 64zM144 160C99.8 160 64 195.8 64 240L64 496C64 540.2 99.8 576 144 576L400 576C444.2 576 480 540.2 480 496L480 416C480 398.3 465.7 384 448 384C430.3 384 416 398.3 416 416L416 496C416 504.8 408.8 512 400 512L144 512C135.2 512 128 504.8 128 496L128 240C128 231.2 135.2 224 144 224L224 224C241.7 224 256 209.7 256 192C256 174.3 241.7 160 224 160L144 160z"/></svg></div></div>
         </div>
       </div>
     </div>
@@ -169,6 +169,67 @@
     document.getElementById('navMenu').classList.toggle('active');
   }
   </script>
-  
+  <script>
+  const animateElements = document.querySelectorAll('.animate-left, .animate-right');
+
+  const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // Only animate once
+      }
+    });
+  }, { threshold: 0.2 });
+
+  animateElements.forEach(el => observer.observe(el));
+  const fadeElements = document.querySelectorAll('.fade-in');
+
+  const portfolioObserver = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        portfolioObserver.unobserve(entry.target); // Animate only once
+      }
+    });
+  }, { threshold: 0.2 });
+
+  fadeElements.forEach(el => portfolioObserver.observe(el));
+  const typedTextSpan = document.getElementById("typed-text");
+  const cursorSpan = document.querySelector(".cursor");
+
+  const textArray = ["Web Developer ", "Video Editor ", "Learner "];
+  const typingDelay = 100;
+  const erasingDelay = 50;
+  const newTextDelay = 1500; // Delay between current and next text
+  let textArrayIndex = 0;
+  let charIndex = 0;
+
+  function type() {
+    if (charIndex < textArray[textArrayIndex].length) {
+      typedTextSpan.textContent += textArray[textArrayIndex].charAt(charIndex);
+      charIndex++;
+      setTimeout(type, typingDelay);
+    } else {
+      setTimeout(erase, newTextDelay);
+    }
+  }
+
+  function erase() {
+    if (charIndex > 0) {
+      typedTextSpan.textContent = textArray[textArrayIndex].substring(0, charIndex - 1);
+      charIndex--;
+      setTimeout(erase, erasingDelay);
+    } else {
+      textArrayIndex++;
+      if (textArrayIndex >= textArray.length) textArrayIndex = 0;
+      setTimeout(type, typingDelay);
+    }
+  }
+
+  document.addEventListener("DOMContentLoaded", function () {
+    if (textArray.length) setTimeout(type, newTextDelay);
+  });
+</script>
+
   </body>
 </html>
